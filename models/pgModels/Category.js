@@ -3,7 +3,7 @@ module.exports = (sequelize, DataTypes) => {
     categoryid: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
     name: { type: DataTypes.STRING, allowNull: false }
   }, {
-    tableName: "categories",
+    tableName: "category",
     timestamps: false
   });
 };

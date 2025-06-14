@@ -6,7 +6,6 @@ const {
   sequelize,
   User,
   Course,
-  Category,
   Contact,
   Registration
 } = require("../models/pgModels");
